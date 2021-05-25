@@ -1,6 +1,12 @@
+html 
+{
+    position: relative;
+    min-height: 100%;
+}
 body
 {
     background: #f8f8f8;
+    margin-bottom: 80px;
 }
 h1
 {
@@ -91,4 +97,71 @@ td
 {
     height: 80px;
     background:#ffffff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
+.menu
+{
+    display: block;  
+    float: right;  
+    margin-right: 2%;
+}
+.footer .text
+{
+    display: block;
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+.button 
+{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background: rgb(64, 66, 199);
+
+} 
+.button:hover 
+{ 
+    background: rgb(78, 53, 167); 
+}
+.button:active 
+{
+    background: rgb(54, 33, 147);
+}
+.krop
+{
+    position:absolute;
+    left: 30%;
+}
+.photo
+{
+    max-width: 50%;
+    height: auto;
+}
+.goods
+{
+    display:grid;
+}
+.item1
+{
+    grid-area: first;
+}
+.item2
+{
+    grid-area: second;
+}
+.item3
+{
+    grid-area: third;
+}
+.katalog
+{
+    display: grid;
+    grid-template-areas:
+    'first second third' ;
+}
+
